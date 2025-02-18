@@ -47,3 +47,20 @@
     align-items: center;
     font-size: 24px;
 }
+
+.message{
+    display: none;
+}
+@media (max-width: 480px)  {
+    .message{
+        display: block;
+        border: 4px dashed rgba(0, 0, 0, 0.452);
+        margin: 100px auto;
+        padding: 20px 10px;
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 80vw;
+        text-align: center;
+        outline: 1px solid rgba(0, 0, 0, 0.274);
+    }
+}
